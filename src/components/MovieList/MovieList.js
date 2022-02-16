@@ -1,4 +1,3 @@
-import "./MovieList.css";
 import Movie from "../Movie/Movie.js";
 import ModalMovie from "../ModalMovie/ModalMovie";
 import { CardGroup } from 'react-bootstrap';

@@ -37,11 +37,54 @@
   }
 }
 
-#main-container{
-  background-color: #FFF5E1;
+.cont{
+  background-color: #577BC1;
+  display: flex;
+  justify-content: center;
+}
+
+#mine{
+  width: 100%;
+  margin: 0px;
+  padding: 20px;
+}
+
+#cardy{
+  background-color: #000957;
+  width: 270px;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+#cardyfav{
+  background-color: #016b6e;
+  width: 270px;
+  margin: 20px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.text{
+  color: #EBE645;
+}
+
+#bodyy{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
+}
+
+.button{
+  margin: 10px;
+}
+
+#cont{
+  background-color: #577BC1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
