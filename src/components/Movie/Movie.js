@@ -1,4 +1,3 @@
-import "./Movie.css";
 import { Card, Button } from 'react-bootstrap';
 
 export default function Movie(props) {
@@ -11,7 +10,6 @@ export default function Movie(props) {
               <Card.Text className="text"> {props.movie.overview} </Card.Text>
               <Card.Text className="text"> {props.movie.caption} </Card.Text>
               <Button className="button" variant="primary" onClick={() => { props.setMovie(props.movie); props.setShowModal(true) }} >Show Modal</Button>
-              <Button className="button" variant="primary" onClick={() => {}} > Add to favorite </Button>
           </Card.Body>
         </Card>
       </div>
